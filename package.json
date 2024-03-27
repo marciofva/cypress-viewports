@@ -1,0 +1,20 @@
+{
+  "name": "screenshot-webpage",
+  "version": "1.0.0",
+  "description": "webpage tests",
+  "main": "index.js",
+  "scripts": {
+    "verify": "cypress verify",
+    "open": "cypress open --e2e",
+    "test": "cypress run --env configFile=develop --browser chrome",
+    "test-chrome": "cypress run --browser chrome",
+    "test-firefox": "cypress run --browser firefox",
+    "test-edge": "cypress run --browser edge"
+  },
+  "author": "Marcio Almeida",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}

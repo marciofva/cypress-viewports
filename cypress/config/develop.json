@@ -1,0 +1,6 @@
+{
+    "baseUrl": "http://www.automationpractice.pl/",
+    "env": {
+      "environment": "develop"
+    }
+}
